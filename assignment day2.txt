@@ -1,0 +1,29 @@
+#assignment 1 day 2
+a='abi','baby'
+b='sai','mini'
+print(type(a))
+print(id(a))
+print(a+b)
+print(a[1])
+print(len(a+b))
+#assignment 2 day 2
+lst=['abi','bunny','sunny','bittu']
+lst.append('tinku')
+lst.remove('tinku')
+print(lst.pop(0))
+print(lst)
+lst.extend(['bora','dora','tom','jerry'])
+print(lst)
+lst.clear()
+print(lst)
+#assignment 3 day 2
+names={1:"abi",2:"bittu",3:"mini"}
+print(names[1])
+lst1=['car','bike','cycle']
+lst2=['audi','rx100','atlas']
+data=dict(zip(lst1,lst2))
+print(data)
+print(names.get(2))
+print(names.get(4,'not found'))
+names['5']='bunny'
+print(names)
